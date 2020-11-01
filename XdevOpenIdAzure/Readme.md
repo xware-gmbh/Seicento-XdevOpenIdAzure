@@ -1,12 +1,11 @@
 
-#OpenId Bibliothek von XDEV (Rapidclipse)
-##Verwendung
-Wird in Seicento verwendet für die Anmeldung an das Azure AD (AAD)
-Die Biblithek wurde von XDEV zur Verfügung gestellt, ist aber nicht Teil der offiziellen Distribution.
+#OpenId Library for XDEV (Rapidclipse)
+##Usage
+Is used in Seicento (billing & salary) to authenticate the app against aad (Azure ad)
+The library was originally published by rapdiclipse germany - but is not part of the official distribution
 
-Daher muss diese (JAR) von XWware verwaltet werden (Maven Repo)
 
-####Azure Maven Repo
+####Azure Maven Repo (private)
 
 <repository>
 <id>xwr-visualstudio.com-maven</id>
@@ -14,9 +13,7 @@ Daher muss diese (JAR) von XWware verwaltet werden (Maven Repo)
 
 ####Changelog
 Beinhaltet die angepassten Sourcen (1.0.2) für RapidClipse AAD
-- Bestellt bei Rapdiclipse in Deutschland
 
 Erweiterung:
 - dynamische URL ermöglicht.
 
-Die Library wird in Salary Seicento verwendet
